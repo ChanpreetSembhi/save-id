@@ -15,7 +15,7 @@ const deleteId = async (id) => {
   try {
     await appwriteService.deleteId(id);
     console.log("Data Seleted successfully!");
-    window.location.reload()
+    // window.location.reload()
   } catch (error) {
     console.error("Error seleting data:", error);
   }
